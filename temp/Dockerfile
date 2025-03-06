@@ -1,1 +1,1 @@
-From bitnami/redis:7.4.2-debian-12-r4
+From bitnami/nginx:1.27.4-debian-12-r5
