@@ -1,1 +1,1 @@
-From openjdk:23
+From openjdk:17-jdk-alpine
