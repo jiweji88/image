@@ -1,1 +1,1 @@
-From redislabs/research:latest
+From redislabs/redisearch:latest
