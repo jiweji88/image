@@ -1,1 +1,1 @@
-From openjdk:17-jdk-alpine
+From redislabs/research:latest
