@@ -40,8 +40,9 @@ RUN npm config set registry https://registry.npmmirror.com/ && \
 WORKDIR /app
 
 # 复制package文件并安装依赖（利用缓存机制）
-COPY package.json package-lock.json ./
-RUN npm install express@4 echarts@5.4.3 jsdom@22.18.0 canvas@2.11.2
+# COPY package.json package-lock.json ./
+COPY package.json ./
+RUN npm install express@4 echarts@5.4.3 jsdom@22.1.0 canvas@2.11.2
 
 # 复制服务代码
 COPY echarts-server.js .
@@ -51,4 +52,5 @@ EXPOSE 3000
 
 # 启动服务
 CMD ["node", "echarts-server.js"]
+
     
