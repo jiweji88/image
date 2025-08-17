@@ -33,8 +33,8 @@ RUN curl -fsSL https://nodejs.org/dist/v22.18.0/node-v22.18.0-linux-x64.tar.xz -
     && npm -v
 
 # 设置NPM阿里源
-RUN npm config set registry https://registry.npmmirror.com/ && \
-    npm config set disturl https://npmmirror.com/dist
+# RUN npm config set registry https://registry.npmmirror.com/ && \
+#    npm config set disturl https://npmmirror.com/dist
 
 # 创建工作目录
 WORKDIR /app
@@ -54,3 +54,4 @@ EXPOSE 3000
 CMD ["node", "echarts-server.js"]
 
     
+
