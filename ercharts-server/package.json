@@ -6,7 +6,9 @@
   "dependencies": {
     "echarts": "^5.4.3",
     "jsdom": "^22.1.0",
-    "canvas": "^2.11.2"
+    "canvas": "^2.11.2",
+    "express": "^4"
   }
 }
+
     
