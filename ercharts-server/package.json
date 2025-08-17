@@ -1,0 +1,12 @@
+{
+  "name": "echarts-server",
+  "version": "1.0.0",
+  "description": "Generate ECharts images in Node.js environment",
+  "main": "generate-echarts-image.js",
+  "dependencies": {
+    "echarts": "^5.4.3",
+    "jsdom": "^22.1.0",
+    "canvas": "^2.11.2"
+  }
+}
+    
